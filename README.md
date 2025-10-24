@@ -2,11 +2,16 @@
 
 This repository demonstrates how to integrate the Syncfusion React Spreadsheet component with AWS S3 cloud storage using a React frontend and an ASP.NET Core Web API backend.
 
+🔗 **Live Demo**
+
+- **React Client Sample (StackBlitz)**: [react-syncfusion-s3-spreadsheet](https://stackblitz.com/edit/react-8ntu1yx9-nepsrag4?file=index.js)
+- **Tested files used in the dropdown can be found here**: [Tested Excel files](./client/public/Files/)
+
 📁 **Project Structure**
 
 ```
 ├── client/       # React app with Syncfusion Spreadsheet
-├── server/       # ASP.NET Core Web API project
+└── server/       # ASP.NET Core Web API project
 ```
 
 ✨ **Features**
@@ -54,6 +59,8 @@ This repository demonstrates how to integrate the Syncfusion React Spreadsheet c
    - Region
 
 4. **Run the Server**
+   
+   Run the project and test the endpoints directly from the React app
 
    ```bash
    dotnet run
@@ -61,8 +68,8 @@ This repository demonstrates how to integrate the Syncfusion React Spreadsheet c
 
 📌 **Notes**
 
-- Update the fetch() URLs in the sample to point to your local backend endpoints for OpenFromS3 and SaveToS3.
-- The sample includes a dropdown list with three predefined Excel files:
+- Update the fetch() URLs in the React sample to point to your local backend endpoints for `OpenFromS3` and `SaveToS3`.
+- The React sample includes a dropdown list with three predefined Excel files:
 
    ```javascript
    const fileList = [
