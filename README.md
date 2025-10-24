@@ -2,8 +2,6 @@
 
 This repository demonstrates how to integrate the Syncfusion React Spreadsheet component with AWS S3 cloud storage using a React frontend and an ASP.NET Core Web API backend.
 
-🔗 **Live Demo**
-
 - **React Client Sample (StackBlitz)**: [https://stackblitz.com/edit/react-syncfusion-s3-spreadsheet](https://stackblitz.com/edit/react-syncfusion-s3-spreadsheet)
 - **Tested Files**: [https://your-s3-or-github-link.com](https://your-s3-or-github-link.com)
 
@@ -76,7 +74,7 @@ This repository demonstrates how to integrate the Syncfusion React Spreadsheet c
 
 📌 **Notes**
 
-The dropdown in the React app uses the following sample list:
+The dropdown in the **React app** uses the following sample list:
 
 ```javascript
 const fileList = [
@@ -90,7 +88,7 @@ Update this list to match your actual S3 files.
 
 📄 **License**
 
-This project is licensed under the MIT License.
+The Syncfusion Spreadsheet component is available under the Syncfusion Essential Studio program and can be licensed under either the [Syncfusion Community License](https://www.syncfusion.com/products/communitylicense) or the [Syncfusion Commercial License](https://www.syncfusion.com/license).
 
 ---
 
