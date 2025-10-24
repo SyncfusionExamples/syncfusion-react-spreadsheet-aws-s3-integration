@@ -2,15 +2,11 @@
 
 This repository demonstrates how to integrate the Syncfusion React Spreadsheet component with AWS S3 cloud storage using a React frontend and an ASP.NET Core Web API backend.
 
-- **React Client Sample (StackBlitz)**: [https://stackblitz.com/edit/react-syncfusion-s3-spreadsheet](https://stackblitz.com/edit/react-syncfusion-s3-spreadsheet)
-- **Tested Files**: [https://your-s3-or-github-link.com](https://your-s3-or-github-link.com)
-
 📁 **Project Structure**
 
 ```
 ├── client/       # React app with Syncfusion Spreadsheet
 ├── server/       # ASP.NET Core Web API project
-└── README.md     # Project documentation
 ```
 
 ✨ **Features**
@@ -50,21 +46,12 @@ This repository demonstrates how to integrate the Syncfusion React Spreadsheet c
    # Open in Visual Studio or VS Code
    # Restore NuGet packages
    ```
+   **Update the following in the controller:**
 
-   **Update AWS Credentials**
-
-   In `appsettings.json` or directly in the controller:
-
-   ```json
-   {
-     "AWS": {
-       "AccessKey": "<your-access-key>",
-       "SecretKey": "<your-secret-key>",
-       "BucketName": "<your-bucket-name>",
-       "Region": "us-east-1"
-     }
-   }
-   ```
+   - AWS Access Key
+   - AWS Secret Key
+   - S3 Bucket Name
+   - Region
 
 4. **Run the Server**
 
@@ -74,21 +61,27 @@ This repository demonstrates how to integrate the Syncfusion React Spreadsheet c
 
 📌 **Notes**
 
-The dropdown in the **React app** uses the following sample list:
+- Update the fetch() URLs in the sample to point to your local backend endpoints for OpenFromS3 and SaveToS3.
+- The sample includes a dropdown list with three predefined Excel files:
 
-```javascript
-const fileList = [
-  { name: 'Car Sales Report', extension: '.xlsx' },
-  { name: 'Shopping Cart', extension: '.xls' },
-  { name: 'Price Details', extension: '.csv' },
-];
-```
+   ```javascript
+   const fileList = [
+      { name: 'Car Sales Report', extension: '.xlsx' },
+      { name: 'Shopping Cart', extension: '.xls' },
+      { name: 'Price Details', extension: '.csv' },
+   ];
+   ```
+- You can update this list to match the actual Excel files stored in your AWS S3 bucket.
+- After selecting a file, click the "Open From S3" button to load the selected Excel file into the Syncfusion Spreadsheet.
+- Once you make edits, click the "Save to S3" button to save the changes back to the same file in your S3 bucket.
 
-Update this list to match your actual S3 files.
+📄 **License and copyright**
 
-📄 **License**
+> This is a commercial product and requires a paid license for possession or use. Syncfusion<sup>®</sup> licensed software, including this control, is subject to the terms and conditions of Syncfusion<sup>®</sup> [EULA](https://www.syncfusion.com/eula/es/). To acquire a license for 140+ [JavaScript UI controls](https://www.syncfusion.com/javascript-ui-controls), you can [purchase](https://www.syncfusion.com/sales/products) or [start a free 30-day trial](https://www.syncfusion.com/account/manage-trials/start-trials).
 
-The Syncfusion Spreadsheet component is available under the Syncfusion Essential Studio program and can be licensed under either the [Syncfusion Community License](https://www.syncfusion.com/products/communitylicense) or the [Syncfusion Commercial License](https://www.syncfusion.com/license).
+> A [free community license](https://www.syncfusion.com/products/communitylicense) is also available for companies and individuals whose organizations have less than $1 million USD in annual gross revenue and five or fewer developers.
+
+See [LICENSE FILE](https://github.com/syncfusion/ej2-javascript-ui-controls/blob/master/license?utm_source=npm&utm_medium=listing&utm_campaign=javascript-spreadsheet-npm) for more info.
 
 ---
 
