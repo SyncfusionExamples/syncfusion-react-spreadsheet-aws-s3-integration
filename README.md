@@ -33,7 +33,7 @@ This repository demonstrates how to integrate the Syncfusion React Spreadsheet c
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/<your-username>/syncfusion-react-spreadsheet-aws-s3-integration.git
+   git clone https://github.com/SyncfusionExamples/syncfusion-react-spreadsheet-aws-s3-integration.git
    ```
 
 2. **Setup the Client**
