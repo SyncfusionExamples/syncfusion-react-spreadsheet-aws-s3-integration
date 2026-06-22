@@ -8,7 +8,6 @@ This repository demonstrates how to integrate the [React Spreadsheet](https://ww
 - **Tested files used in the dropdown can be found here**: [Tested Excel files](./client/public/Files/)
 
 📁 **Project Structure**
-EJ2-1026846-ft
 ```
 ├── client/       # React app with Syncfusion Spreadsheet
 └── server/       # ASP.NET Core Web API project
