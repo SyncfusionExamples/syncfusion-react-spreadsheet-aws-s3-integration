@@ -1,6 +1,6 @@
 # Syncfusion React Spreadsheet + AWS S3 Integration
 
-This repository demonstrates how to integrate the Syncfusion React Spreadsheet component with AWS S3 cloud storage using a React frontend and an ASP.NET Core Web API backend.
+This repository demonstrates how to integrate the [React Spreadsheet](https://www.syncfusion.com/spreadsheet-editor-sdk/react-spreadsheet-editor) component with AWS S3 cloud storage using a React frontend and an ASP.NET Core Web API backend.
 
 🔗 **Live Demo**
 
@@ -16,14 +16,14 @@ This repository demonstrates how to integrate the Syncfusion React Spreadsheet c
 
 ✨ **Features**
 
-- Open Excel files directly from AWS S3 into Syncfusion Spreadsheet.
+- Open Excel files directly from AWS S3 into Spreadsheet.
 - Edit spreadsheet data in-browser.
 - Save changes back to AWS S3 with a single click.
 - Dropdown list to select files from S3.
 
 🧩 **Technologies Used**
 
-- React + Syncfusion Spreadsheet
+- React + Spreadsheet
 - ASP.NET Core Web API
 - AWS SDK for .NET
 - AWS S3 for cloud storage
@@ -79,7 +79,7 @@ This repository demonstrates how to integrate the Syncfusion React Spreadsheet c
    ];
    ```
 - You can update this list to match the actual Excel files stored in your AWS S3 bucket.
-- After selecting a file, click the "Open From S3" button to load the selected Excel file into the Syncfusion Spreadsheet.
+- After selecting a file, click the "Open From S3" button to load the selected Excel file into the Spreadsheet.
 - Once you make edits, click the "Save to S3" button to save the changes back to the same file in your S3 bucket.
 
 📄 **License and copyright**
